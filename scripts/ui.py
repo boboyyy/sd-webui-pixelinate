@@ -3,10 +3,10 @@ from isnet_pro.video2frame import video2frame,ui_frame2video
 from isnet_pro.Inference2 import pic_generation_single,pic_generation2,ui_invert_image, mask_generate
 import modules.shared as shared
 
-from pixel.utils import  merge_overlapping_grids_linear, divide_and_save_Overlap
+from utils import  merge_overlapping_grids_linear, divide_and_save_Overlap
 import modules.generation_parameters_copypaste as parameters_copypaste
-from pixel.BFS import bfs_full
-from pixel.Pixelinate import pixelinate
+from BFS import bfs_full
+from Pixelinate import pixelinate
 
 from modules import script_callbacks
 
