@@ -8,6 +8,7 @@ import modules.generation_parameters_copypaste as parameters_copypaste
 from pixel.BFS import bfs_full
 from pixel.Pixelinate import pixelinate
 
+from modules import script_callbacks
 
 function_dict = {
     "pixelinate": pixelinate,
@@ -130,3 +131,5 @@ def on_ui_tabs():
                 #with gr.Row():
                     # show unified image
     return [(postprocessing_interface, "Pixelinate", "pixelinate")]
+
+script_callbacks.on_ui_tabs(on_ui_tabs)
