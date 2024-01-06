@@ -51,7 +51,7 @@ def on_ui_tabs():
                                 with gr.Column():
                                     with gr.Row():
                                         patch_input_dir = gr.Textbox(label='网格图输入地址\\patch_input_dir', placeholder='input\\folder')
-                                        image_output_dir = gr.Textbox(label='图片输出地址\\image_output_dir', placeholder='output\\folder')
+                                        #image_output_dir = gr.Textbox(label='图片输出地址\\image_output_dir', placeholder='output\\folder')
                                     with gr.Row():
                                         image_height = gr.Number(value=-1, label="image height", precision=1, interactive=True, placeholder="height for merged images")
                                         image_width = gr.Number(value=-1, label="image width", precision=1, interactive=True, placeholder="width for merged images")
